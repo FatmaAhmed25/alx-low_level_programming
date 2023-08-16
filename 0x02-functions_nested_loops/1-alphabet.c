@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*function:that print alphabet, prints in lowercase
-*Description:we  can only use _putchar twice in the code 
+*print_alphabet - function that print alphabet
+*it prints in lowercase
 *Return: no return
 */
 void print_alphabet(void)
