@@ -5,7 +5,7 @@
  * @a: The first number to multiply
  * @b: The second number to multiply with first number
  *
- * Return: the result of multiplication of a and b
+ * Return: The result of multiplication of a and b
  */
 int mul(int a, int b)
 {
