@@ -4,7 +4,7 @@
  * @dest: input
  * @src: input 
  *
- * Return: pointer to the resulting string dest
+ * Return: void 
  */
 char *_strcat(char *dest, char *src)
 {
