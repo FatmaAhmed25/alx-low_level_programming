@@ -2,8 +2,8 @@
 
 /**
  * rev_string - reverse array
- * @n: integer 
- * Return: void
+ * @n: integer
+ * Return: 0
  */
 
 void rev_string(char *n)
@@ -27,12 +27,12 @@ void rev_string(char *n)
 }
 
 /**
- * infinite_add - add 2 numbers
+ * infinite_add - add 2 numbers together
  * @n1: first number to add
  * @n2: second number to add
  * @r: buffer that the function will use to store the result
  * @size_r: buffer size
- * Return: pointer to the addition
+ * Return: pointer to the result
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
