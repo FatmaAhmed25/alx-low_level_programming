@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * _strchr - function that locates a character in a string
- *@s: first param
- *@c: second param
+ *@s: first value -char
+ *@c: second value - char
  *
- * Return: a pointer to the first occurrence of c
- *
+ * Return: char with result
  */
 char *_strchr(char *s, char c)
-{i
+{
 
 	if (*s == '\0')
 		return (s);
