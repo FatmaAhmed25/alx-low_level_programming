@@ -2,10 +2,10 @@
 
 /**
  * _print_rev_recursion - Prints a string in reverse
- * @s: char
+ * @s: string
  *
- * Return: string in reverse
- * 
+ * Return: string in reverse.
+ * On error, -1 is returned.
  */
 void _print_rev_recursion(char *s)
 {
