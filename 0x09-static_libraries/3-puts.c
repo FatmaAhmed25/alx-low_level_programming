@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main -prints "Programming is like building a multilingual
- * puzzle, followed by a newline."
- * Return: Always 0.
+ * _puts - prints a string to stdout
+ * @str: pointer to the string to print
  */
-
-
-int main(void)
-
+void _puts(char *str)
 {
-puts("\"Programming is like building a multilingual puzzle");
+	int i;
 
-return (0);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
